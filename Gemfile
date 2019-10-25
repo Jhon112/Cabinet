@@ -27,7 +27,8 @@ gem 'haml', '~> 5.1', '>= 5.1.2'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.7', '>= 4.7.1'  
-
+# Add bootstrap
+gem 'bootstrap-sass'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
