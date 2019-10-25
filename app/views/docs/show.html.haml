@@ -1,0 +1,6 @@
+%div.document
+    %h1= @doc.title
+    %div.document-body
+        %p.created_date= "Created at #{@doc.created_at}"
+        %p= @doc.content
+        = link_to 'All docs', docs_path, class: "return-button"
