@@ -1,5 +1,6 @@
 class DocsController < ApplicationController
-	
+	before_action :find_doc, only: [:show, :edit, :update, :delete]
+
 	def index
 	end
 	
@@ -32,6 +33,7 @@ class DocsController < ApplicationController
 	private
 	
 		def find_doc
+			@doc = Doc.find(params[:id])
 		end
 
 		def doc_params
