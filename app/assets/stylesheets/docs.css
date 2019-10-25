@@ -27,12 +27,12 @@ div.document {
     height: 90vh;
 }
 
-.document-body .created_date {
+.document-body p.created_date {
     font-size: 12px;
     text-align: right;
 }
 
-.document-body .return-button {
+.document-body a.return-button {
     background: white;
     text-decoration: none;
     color: black;
