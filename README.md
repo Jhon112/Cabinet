@@ -1,24 +1,7 @@
-# README
+# Cabinet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
 
-Things you may want to cover:
+Simple application that allows a user to create docs, view all docs created, update a doc and delete a doc. This is a really simple project created to practice Ruby on Rails framework.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby version: 2.4.4
