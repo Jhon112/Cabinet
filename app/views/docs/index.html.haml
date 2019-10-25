@@ -1,0 +1,7 @@
+%div
+    - @docs.each do |doc|
+        %div.document
+            %h1= doc.title
+            %div.document-body
+                %p.created_date= "Created at #{doc.created_at}"
+                %p= doc.content
