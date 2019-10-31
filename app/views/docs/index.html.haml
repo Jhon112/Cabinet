@@ -1,7 +1,10 @@
 %div
     - @docs.each do |doc|
         %div.document
-            %h1= doc.title
+            %h1= link_to doc.title, doc
             %div.document-body
                 %p.created_date= "Created at #{doc.created_at}"
                 %p= doc.content
+                = link_to 'Edit doc', edit_doc_path(doc.id), class: "return-button"
+                = link_to 'Delete doc', doc_path(doc), method: :delete, class: "return-button", data: {confirm: "R U sure?"}
+    = link_to "New doc", new_doc_path, class: "return-button"

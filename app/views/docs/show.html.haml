@@ -4,3 +4,5 @@
         %p.created_date= "Created at #{@doc.created_at}"
         %p= @doc.content
         = link_to 'All docs', docs_path, class: "return-button"
+        = link_to 'Edit doc', edit_doc_path, class: "return-button"
+        = link_to 'Delete doc', doc_path, method: :delete, class: "return-button", data: {confirm: "R U sure?"}
